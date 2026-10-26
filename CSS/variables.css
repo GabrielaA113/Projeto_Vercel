@@ -1,10 +1,44 @@
 :root {
+    --altura-do-header: 7.5vh;
+    --altura-do-footer: 15vh;
+    
     --cor-principal: #b0f3f8;
     --cor-secundaria: #52dce6;
       
     --cor-do-texto: rgb(96, 154, 241);
     --cor-do-texto-secundaria: rgb(16, 100, 255);
 
-    --altura-do-header: 7.5vh;
-    --altura-do-footer: 15vh;
+}
+
+@font-face {
+    font-family: 'Fonte Titulo';
+    src: url(../Projeto_Vercel/Assets/Fonts/Pacifico.ttf);
+}
+
+@font-face {
+    font-family: 'Fonte Corpo';
+    src: url(../Projeto_Vercel/Assets/Fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fonte Corpo';
+    src: url(../Projeto_Vercel/Assets/Fonts/Poppins-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fonte Corpo';
+    src: url(../Projeto_Vercel/Assets/Fonts/Poppins-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fonte Corpo';
+    src: url(../Projeto_Vercel/Assets/Fonts/Poppins-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
 }
