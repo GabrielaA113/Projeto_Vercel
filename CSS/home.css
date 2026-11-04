@@ -170,6 +170,26 @@
     color: var(--cor-roxa);
 }
 
+
+.formulario input:focus,
+.formulario select:focus,
+.formulario textarea:focus {
+    outline: none;
+    border-color: (--cor-vermelho);
+}
+
+.formulario textarea {
+    height: 130px;
+    resize: vertical;
+}
+
+.botaoEnviar {
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .card {
     width: 45%;
     padding: 25px;
@@ -285,4 +305,73 @@
     font-weight: bold;
 
     transform: rotate(-12deg);
+}
+
+@media (max-width=786px) {
+    .hero {
+        flex-direction: column;
+        padding: 190px 20px 60px;
+    }
+
+    .heroTexto,
+    .heroImagem {
+        width: 100%;
+    }
+
+    .heroTexto {
+        text-align: center;
+    }
+
+    .heroTag {
+        margin: 0 auto 20px;
+    }
+
+    .heroTitulo {
+        font-size: 38px;
+    }
+
+    .botaoSecundario {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .circulo {
+        width: 250px;
+        height: 250px;
+        margin-top: 40px;
+    }
+
+    .selo {
+        width: 85px;
+        height: 85px;
+        right: 20px;
+        font-size: 14px;
+    }
+
+    .historia,
+    .comoChegar,
+    .contato {
+        padding: 70px;
+    }
+
+    .tituloSecao {
+        font-size: 34px;
+    }
+
+    .historiaConteudo,
+    .comoChegarConteudo {
+        flex-direction: column;
+    }
+
+    .historiaTexto,
+    .historiaCards,
+    .mapa,
+    .infoEndereco,
+    .card {
+        width: 100%;
+    }
+
+    .formulario{
+        padding: 25px;
+    }
 }
